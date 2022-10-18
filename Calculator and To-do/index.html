@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <table>
+            <tr>
+                <td id="screen" colspan="5" class="btn btn--first">0</td>
+            </tr>
+            <tr>
+                <td class="btn" id="btnNumber">7</td>
+                <td class="btn" id="btnNumber">8</td>
+                <td class="btn" id="btnNumber">9</td>
+                <td class="btn" id="btnOpt">/</td>
+                <td class="btn" id="initAll">CE</td>
+            </tr>
+            <tr>
+                <td class="btn" id="btnNumber">4</td>
+                <td class="btn" id="btnNumber">5</td>
+                <td class="btn" id="btnNumber">6</td>
+                <td class="btn" id="btnOpt">*</td>
+                <td class="btn" id="init">C</td>
+            </tr>
+            <tr>
+                <td class="btn" id="btnNumber">1</td>
+                <td class="btn" id="btnNumber">2</td>
+                <td class="btn" id="btnNumber">3</td>
+                <td class="btn" id="btnOpt">-</td>
+                <td rowspan="2" class="btn" id="btnOpt">=</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="btn" id="btnNumber">0</td>
+                <td class="btn">.</td>
+                <td class="btn" id="btnOpt">+</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="container">
+        <h1 class="h1">To-do app</h1>
+        <div class="add-elements">
+            <input class="input" type="text" placeholder="Add Todo" id="input">
+            <button class="btn" id="btn">Add</button>
+        </div>
+        <div class="element-group">
+            <ul class="element-group__list" id="list">
+                <li class="element-group__list__item">Todos</li>
+                <!-- <li class="element-group__list__item"></li> -->
+            </ul>
+        </div>
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

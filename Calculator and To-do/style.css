@@ -1,0 +1,121 @@
+table {
+    background-color: #ddd;
+    width: 400px;
+    height: 550px;
+    left: 15%;
+    top: 10%;
+    position: absolute;
+    box-shadow: 0px 3px 8px rgb(155, 155, 155);
+    border: none;
+}
+
+.btn {
+    width: 60px;
+    height: 60px;
+    background-color: #efefef;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.btn.btn--first {
+    text-align: right;
+    box-sizing: border-box;
+    padding-right: 20px;
+    background-color: white;
+    font-size: 25px;
+}
+
+.btn:hover {
+    background-color: white;
+    transition: all 0.5s ease;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #EEEEEE;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    height: 550px;
+    width: 400px;
+    box-sizing: border-box;
+    top: 10%;
+    left: 50%;
+    position: absolute;
+    /* transform: translate(-50%, -50%); */
+    background-color: #f3f3f3;
+    box-shadow: 0px 3px 8px rgb(155, 155, 155);
+    text-align: center;
+    padding: 15px;
+}
+
+.input {
+    height: 30px;
+    width: 81%;
+    border: none;
+    box-shadow: 0px 1px 3px rgb(155, 155, 155);
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.input::placeholder {
+    padding-left: 10px;
+}
+
+.btn {
+    height: 30px;
+    width: 15%;
+    box-shadow: 0px 1px 3px rgb(155, 155, 155);
+    border-radius: 5px;
+    border: none;
+    background-color: #00ADB5;
+    margin-top: 20px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(225, 174, 174);
+}
+
+
+.element-group {
+    height: 425px;
+    overflow: scroll;
+    box-sizing: border-box;
+}
+
+.element-group::-webkit-scrollbar {
+    display: none;
+}
+
+.element-group__list__item {
+    height: 40px;
+    width: 100%;
+    box-shadow: 0px 1px 3px rgb(155, 155, 155);
+    margin-top: 12px;
+    border-radius: 5px;
+    text-align: center;
+    position: flex;
+    padding-top: 12px;
+    list-style: none;
+}
+
+.element-group__list__item:hover {
+    background-color: #e0e0e0;
+}
+
+
+.checked {
+    text-decoration: line-through;
+    background-color: #e0e0e0;
+}
